@@ -25,8 +25,9 @@ namespace CasoEstudio2.Models
         [DataType(DataType.Password)]
         public string Contraseña { get; set; }
 
+        // Relación con Rol
         [Required]
-        public string Rol { get; set; }
-
+        public int RolId { get; set; }
+        public Rol Rol { get; set; }
     }
 }
