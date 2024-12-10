@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\",
+  "WorkspaceRootPath": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\personal\\desktop\\fidelitas\\programaci\u00F3n avanzada en web\\casoestudio2\\casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\personal\\desktop\\fidelitas\\programaci\u00F3n avanzada en web\\casoestudio2\\casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\personal\\desktop\\fidelitas\\programaci\u00F3n avanzada en web\\casoestudio2\\casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241210010641_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CasoEstudio2\\Migrations\\20241210010641_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,12 +37,99 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 725,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "CasoEstudio2\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:44:13.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "CasoEstudio2\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:31:33.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241210010641_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241210010641_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Migrations\\20241210010641_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241210010641_InitialCreate.cs",
+              "RelativeToolTip": "CasoEstudio2\\Migrations\\20241210010641_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:06:41.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Rol.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:57:52.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Usuario.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:57:05.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\appsettings.json",
+              "RelativeDocumentMoniker": "CasoEstudio2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\appsettings.json",
+              "RelativeToolTip": "CasoEstudio2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T00:54:26.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Caso2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:54:18.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -34,15 +137,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -50,46 +149,79 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5c82a791-7c9f-441e-952b-8848655dd85e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Program.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Program.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Program.cs",
-              "RelativeToolTip": "CasoEstudio2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:49:42.697Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\appsettings.json",
-              "RelativeDocumentMoniker": "CasoEstudio2\\appsettings.json",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\appsettings.json",
-              "RelativeToolTip": "CasoEstudio2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-10T00:49:12.336Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Caso2DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "RelativeToolTip": "CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:48:23.58Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
