@@ -1,0 +1,54 @@
+﻿@model Evento
+
+<h2>Crear Evento</h2>
+
+<form asp-action="Crear" method="post">
+    <div>
+        <label for="Titulo">Título</label>
+        <input type="text" id="Titulo" name="Titulo" value="@Model?.Titulo" required />
+    </div>
+
+    <div>
+        <label for="Descripcion">Descripción</label>
+        <textarea id="Descripcion" name="Descripcion" rows="3" required>@Model?.Descripcion</textarea>
+    </div>
+
+    <div>
+        <label for="CategoriaId">Categoría</label>
+        <select id="CategoriaId" name="CategoriaId" required>
+            <option value="" disabled selected>Seleccione una categoría</option>
+            <option value="1">Categoría 1</option>
+            <option value="2">Categoría 2</option>
+            <option value="3">Categoría 3</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Fecha">Fecha</label>
+        <input type="date" id="Fecha" name="Fecha" value="@Model?.Fecha.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div>
+        <label for="Hora">Hora</label>
+        <input type="time" id="Hora" name="Hora" value="@Model?.Hora" required />
+    </div>
+
+    <div>
+        <label for="Duracion">Duración (en minutos)</label>
+        <input type="number" id="Duracion" name="Duracion" value="@Model?.Duracion" min="1" required />
+    </div>
+
+    <div>
+        <label for="Ubicacion">Ubicación</label>
+        <input type="text" id="Ubicacion" name="Ubicacion" value="@Model?.Ubicacion" required />
+    </div>
+
+    <div>
+        <label for="CupoMaximo">Cupo Máximo</label>
+        <input type="number" id="CupoMaximo" name="CupoMaximo" value="@Model?.CupoMaximo" min="1" required />
+    </div>
+
+    <button type="submit">Crear Evento</button>
+</form>
+
+

@@ -1,0 +1,55 @@
+﻿@model Evento
+
+<h2>Editar Evento</h2>
+
+<form asp-action="Editar" method="post">
+    <input type="hidden" asp-for="Id" />
+    
+    <div>
+        <label for="Titulo">Título</label>
+        <input type="text" id="Titulo" name="Titulo" value="@Model.Titulo" required />
+    </div>
+
+    <div>
+        <label for="Descripcion">Descripción</label>
+        <textarea id="Descripcion" name="Descripcion" rows="3" required>@Model.Descripcion</textarea>
+    </div>
+
+    <div>
+        <select asp-for="CategoriaId" class="form-control" asp-items="@(new SelectList(new[] {
+             new { Value = 1, Text = "Categoría 1" },
+             new { Value = 2, Text = "Categoría 2" },
+             new { Value = 3, Text = "Categoría 3" }
+             }, "Value", "Text", Model.CategoriaId))">
+            <option value="" disabled>Seleccione una categoría</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Fecha">Fecha</label>
+        <input type="date" id="Fecha" name="Fecha" value="@Model.Fecha.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div>
+        <label for="Hora">Hora</label>
+        <input type="time" id="Hora" name="Hora" value="@Model.Hora" required />
+    </div>
+
+    <div>
+        <label for="Duracion">Duración (en minutos)</label>
+        <input type="number" id="Duracion" name="Duracion" value="@Model.Duracion" min="1" required />
+    </div>
+
+    <div>
+        <label for="Ubicacion">Ubicación</label>
+        <input type="text" id="Ubicacion" name="Ubicacion" value="@Model.Ubicacion" required />
+    </div>
+
+    <div>
+        <label for="CupoMaximo">Cupo Máximo</label>
+        <input type="number" id="CupoMaximo" name="CupoMaximo" value="@Model.CupoMaximo" min="1" required />
+    </div>
+
+    <button type="submit">Guardar Cambios</button>
+</form>
+
