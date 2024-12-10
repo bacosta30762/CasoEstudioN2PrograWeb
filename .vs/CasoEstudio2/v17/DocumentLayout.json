@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\personal\\desktop\\fidelitas\\programaci\u00F3n avanzada en web\\casoestudio2\\casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\personal\\desktop\\fidelitas\\programaci\u00F3n avanzada en web\\casoestudio2\\casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\personal\\desktop\\fidelitas\\programaci\u00F3n avanzada en web\\casoestudio2\\casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +51,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Program.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Program.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Program.cs",
+              "RelativeToolTip": "CasoEstudio2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:49:42.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\appsettings.json",
+              "RelativeDocumentMoniker": "CasoEstudio2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\appsettings.json",
+              "RelativeToolTip": "CasoEstudio2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T00:49:12.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Caso2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Fidelitas\\Programaci\u00F3n Avanzada en Web\\CasoEstudio2\\CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:48:23.58Z",
+              "EditorCaption": ""
             }
           ]
         }
