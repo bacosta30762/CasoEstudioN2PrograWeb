@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Evento>
+
+<table>
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Cupo Máximo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var evento in Model)
+        {
+            <tr>
+                <td>@evento.Titulo</td>
+                <td>@evento.Fecha.ToString("yyyy-MM-dd")</td>
+                <td>@evento.Hora</td>
+                <td>@evento.CupoMaximo</td>
+                <td>
+                    <a href="@Url.Action("Editar", new { id = evento.Id })">Editar</a> |
+                    <a href="@Url.Action("Eliminar", new { id = evento.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
