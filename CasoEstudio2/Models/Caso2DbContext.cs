@@ -11,5 +11,7 @@ namespace CasoEstudio2.Models
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Rol> Roles { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+
     }
 }
