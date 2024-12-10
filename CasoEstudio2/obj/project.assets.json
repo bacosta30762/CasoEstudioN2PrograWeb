@@ -7765,24 +7765,19 @@
     ]
   },
   "packageFolders": {
-    "D:\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Paula\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sheyris\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
+      "projectUniqueName": "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
       "projectName": "CasoEstudio2",
-      "projectPath": "C:\\Users\\Sheyris\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
-      "packagesPath": "D:\\NuGetPackages",
-      "outputPath": "C:\\Users\\Sheyris\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\obj\\",
+      "projectPath": "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
+      "packagesPath": "C:\\Users\\Paula\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sheyris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7790,6 +7785,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7806,9 +7802,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -7862,7 +7857,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
