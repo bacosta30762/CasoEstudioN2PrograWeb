@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\migrations\\20241212184931_addusuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\migrations\\20241212184931_addusuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\categoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\categoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\migrations\\caso2dbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\migrations\\caso2dbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\categoria\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\categoria\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\caso2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\migrations\\20241210214950_initialusuariorolevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\migrations\\20241210214950_initialusuariorolevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\categoria\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\paula\\source\\repos\\casoestudion2prograweb\\casoestudio2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -103,114 +111,145 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241212184931_AddUsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241212184931_AddUsuarioModel.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Migrations\\20241212184931_AddUsuarioModel.cs",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241212184931_AddUsuarioModel.cs",
-              "RelativeToolTip": "CasoEstudio2\\Migrations\\20241212184931_AddUsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:49:33.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Caso2DbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\Caso2DbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Migrations\\Caso2DbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\Caso2DbContextModelSnapshot.cs",
-              "RelativeToolTip": "CasoEstudio2\\Migrations\\Caso2DbContextModelSnapshot.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAgwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:38:24.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Rol.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Rol.cs",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Rol.cs",
-              "RelativeToolTip": "CasoEstudio2\\Models\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:37:11.296Z",
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Crear.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Categoria\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Crear.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Categoria\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:43:34.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Usuario.cs",
-              "RelativeToolTip": "CasoEstudio2\\Models\\Usuario.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:36:41.915Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:44:04.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Categoria\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Eliminar.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Categoria\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:43:56.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Editar.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Categoria\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Editar.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Categoria\\Editar.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:43:12.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20241210214950_InitialUsuarioRolEvento.cs",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241210214950_InitialUsuarioRolEvento.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Migrations\\20241210214950_InitialUsuarioRolEvento.cs",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Migrations\\20241210214950_InitialUsuarioRolEvento.cs",
-              "RelativeToolTip": "CasoEstudio2\\Migrations\\20241210214950_InitialUsuarioRolEvento.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\ICategoriaService.cs",
+              "RelativeToolTip": "CasoEstudio2\\Services\\ICategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:23:14.36Z"
+              "WhenOpened": "2024-12-12T19:36:08.278Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Caso2DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Caso2DbContext.cs",
-              "RelativeToolTip": "CasoEstudio2\\Models\\Caso2DbContext.cs",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Usuarios\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:22:46.74Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:32:21.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:32:20.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T19:32:18.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Categoria.cs",
+              "RelativeToolTip": "CasoEstudio2\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:28:57.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "CasoEstudio2\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwGAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:22:11.502Z"
+              "WhenOpened": "2024-12-12T19:27:00.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "CasoEstudio2\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:22:08.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\appsettings.json",
-              "RelativeDocumentMoniker": "CasoEstudio2\\appsettings.json",
-              "ToolTip": "C:\\Users\\Paula\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\appsettings.json",
-              "RelativeToolTip": "CasoEstudio2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-12T18:20:50.21Z"
+              "WhenOpened": "2024-12-12T19:28:51.276Z",
+              "EditorCaption": ""
             }
           ]
         },

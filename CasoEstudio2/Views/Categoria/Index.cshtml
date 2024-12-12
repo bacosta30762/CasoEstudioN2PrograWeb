@@ -4,10 +4,10 @@
     ViewData["Title"] = "Categorias";
 }
 
-<h1>Index</h1>
+<h1>Categorias</h1>
 
 <p>
-    <a asp-action="Crear">Crear Categoria New</a>
+    <a asp-action="Crear">Crear una nueva categoria</a>
 </p>
 <table class="table">
     <thead>
@@ -55,9 +55,8 @@
                 @Html.DisplayFor(modelItem => item.UsuarioRegistro)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Editar", "Editar", new { id=item.Id })                 
+                @Html.ActionLink("Eliminar", "Eliminar", new { id=item.Id })
             </td>
         </tr>
 }

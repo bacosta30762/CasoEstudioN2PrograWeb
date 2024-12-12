@@ -38,6 +38,61 @@ namespace CasoEstudio2.Controllers
                 }
             }
             return View(categoria);
+
+        }
+        public async Task<IActionResult> EditarAsync(int id)
+        {
+            var categoria = await _categoriaService.ObtenerCategoriaPorIdAsync(id);
+            if (categoria == null)
+            {
+                return NotFound();
+            }
+            return View(categoria);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditarAsync(Categoria categoria)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _categoriaService.EditarCategoriaAsync(categoria);
+                    return RedirectToAction("Index");
+                }
+                catch (InvalidOperationException ex)
+                {
+                    ModelState.AddModelError(string.Empty, ex.Message);
+                }
+            }
+            return View(categoria);
+        }
+
+        public async Task<IActionResult> EliminarAsync(int id)
+        {
+            var categoria = await _categoriaService.ObtenerCategoriaPorIdAsync(id);
+            if (categoria == null)
+            {
+                return NotFound();
+            }
+            return View(categoria);
+        }
+
+
+        [HttpPost, ActionName("Eliminar")]
+        public async Task<IActionResult> EliminarConfirmadoAsync(int id)
+        {
+            try
+            {
+                await _categoriaService.EliminarCategoriaAsync(id);
+                return RedirectToAction("Index");
+            }
+            catch (InvalidOperationException ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+                return View();
+            }
+
         }
     }
 }

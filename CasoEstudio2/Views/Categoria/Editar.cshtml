@@ -1,0 +1,26 @@
+﻿@model CasoEstudio2.Models.Categoria
+
+<h1>Editar Categoría</h1>
+
+<form asp-action="Editar">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" />
+        <span asp-validation-for="Nombre"></span>
+    </div>
+    <div>
+        <label asp-for="Descripcion"></label>
+        <textarea asp-for="Descripcion"></textarea>
+        <span asp-validation-for="Descripcion"></span>
+    </div>
+    <div>
+        <label asp-for="Estado"></label>
+        <select asp-for="Estado">
+            <option value="Activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
+        </select>
+        <span asp-validation-for="Estado"></span>
+    </div>
+    <button type="submit">Guardar Cambios</button>
+</form>
