@@ -16,12 +16,9 @@
     </div>
 
     <div>
-        <select asp-for="CategoriaId" class="form-control" asp-items="@(new SelectList(new[] {
-             new { Value = 1, Text = "Categoría 1" },
-             new { Value = 2, Text = "Categoría 2" },
-             new { Value = 3, Text = "Categoría 3" }
-             }, "Value", "Text", Model.CategoriaId))">
-            <option value="" disabled>Seleccione una categoría</option>
+        <label for="CategoriaId">Categoría</label>
+        <select asp-for="CategoriaId" asp-items="ViewBag.Categorias" class="form-control">
+            <option value="">Seleccione una categoría</option>
         </select>
     </div>
 

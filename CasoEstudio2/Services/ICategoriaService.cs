@@ -1,4 +1,5 @@
 ﻿using CasoEstudio2.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CasoEstudio2.Services
 {
@@ -9,5 +10,6 @@ namespace CasoEstudio2.Services
         Task EliminarCategoriaAsync(int id);
         Task<List<Categoria>> ObtenerCategoriasAsync();
         Task<Categoria?> ObtenerCategoriaPorIdAsync(int id);
+        Task<IEnumerable<SelectListItem>> ObtenerCategoriasActivasAsync();
     }
 }

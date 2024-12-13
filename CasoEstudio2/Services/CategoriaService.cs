@@ -1,4 +1,5 @@
 ﻿using CasoEstudio2.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace CasoEstudio2.Services
@@ -43,6 +44,17 @@ namespace CasoEstudio2.Services
         public async Task<Categoria?> ObtenerCategoriaPorIdAsync(int id)
         {
             return await _context.Categorias.FindAsync(id);
+        }
+        public async Task<IEnumerable<SelectListItem>> ObtenerCategoriasActivasAsync()
+        {
+           
+            var categorias = await _context.Categorias.Where(c => c.Estado ==  "Activo").ToListAsync();
+            var categoriasSelectList = categorias.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.Nombre
+            }).ToList();
+            return categoriasSelectList;
         }
     }
 }

@@ -17,9 +17,10 @@
         <label for="CategoriaId">Categoría</label>
         <select id="CategoriaId" name="CategoriaId" required>
             <option value="" disabled selected>Seleccione una categoría</option>
-            <option value="1">Categoría 1</option>
-            <option value="2">Categoría 2</option>
-            <option value="3">Categoría 3</option>
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                <option value="@categoria.Value">@categoria.Text</option>
+            }
         </select>
     </div>
 

@@ -10,6 +10,7 @@ builder.Services.AddDbContext<Caso2DbContext>(op =>
     op.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IEventoService, EventoService>();
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+builder.Services.AddScoped<IInscripcionService, InscripcionService>();
 
 var app = builder.Build();
 

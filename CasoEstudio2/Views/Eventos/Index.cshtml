@@ -1,5 +1,12 @@
 ﻿@model IEnumerable<Evento>
 
+@if(TempData["Mensaje"] != null)
+{
+    <div class="alert alert-primary" role="alert">
+        @TempData["Mensaje"]
+    </div>
+}
+
 <table>
     <thead>
         <tr>
@@ -21,6 +28,7 @@
                 <td>
                     <a href="@Url.Action("Editar", new { id = evento.Id })">Editar</a> |
                     <a href="@Url.Action("Eliminar", new { id = evento.Id })">Eliminar</a>
+                    <a href="@Url.Action("Inscribir", new { id = evento.Id })">Inscribirse</a>
                 </td>
             </tr>
         }

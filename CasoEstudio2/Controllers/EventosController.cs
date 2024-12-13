@@ -7,10 +7,14 @@ namespace CasoEstudio2.Controllers
     public class EventosController : Controller
     {
         private readonly IEventoService _eventoService;
+        private readonly ICategoriaService _categoriaService;
+        private readonly IInscripcionService _inscripcionService;
 
-        public EventosController(IEventoService eventoService)
+        public EventosController(IEventoService eventoService, ICategoriaService categoriaService, IInscripcionService inscripcionService)
         {
             _eventoService = eventoService;
+            _categoriaService = categoriaService;
+            _inscripcionService = inscripcionService;
         }
 
         // Listado de eventos
@@ -21,12 +25,17 @@ namespace CasoEstudio2.Controllers
         }
 
         // Crear evento (vista de formulario)
-        public IActionResult Crear()
+        public async Task<IActionResult> CrearAsync()
         {
+            var categorias = await _categoriaService.ObtenerCategoriasActivasAsync();
+
+
             var evento = new Evento
             {
                 Fecha = DateTime.Now
             };
+
+            ViewBag.Categorias = categorias;
             return View(evento);
         }
 
@@ -54,9 +63,11 @@ namespace CasoEstudio2.Controllers
         // Modificar evento (vista de formulario)
         public async Task<IActionResult> Editar(int id)
         {
+            var categorias = await _categoriaService.ObtenerCategoriasActivasAsync();
             var evento = await _eventoService.ObtenerEventoPorIdAsync(id);
             if (evento == null)
                 return NotFound();
+            ViewBag.Categorias = categorias;            
             return View(evento);
         }
 
@@ -88,6 +99,18 @@ namespace CasoEstudio2.Controllers
                 return NotFound();
 
             await _eventoService.EliminarEventoAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> Inscribir(int id)
+        {
+            var resultadoInscribir = await _inscripcionService.AgregarInscripcionAsync(id);
+            if (resultadoInscribir.Exitoso == false)
+            {
+                TempData["Mensaje"] = resultadoInscribir.Mensaje;
+                return RedirectToAction(nameof(Index));
+            }
+
+            TempData["Mensaje"] = "Se inscribió correctamente.";
             return RedirectToAction(nameof(Index));
         }
     }
