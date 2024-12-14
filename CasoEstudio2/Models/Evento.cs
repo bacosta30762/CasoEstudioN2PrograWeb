@@ -38,5 +38,8 @@ namespace CasoEstudio2.Models
 
         public DateTime FechaRegistro { get; set; }
         public string? UsuarioRegistro { get; set; }
+
+        public List<Inscripcion>? Inscripciones { get; set; } = new List<Inscripcion>();
+
     }
 }

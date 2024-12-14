@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CasoEstudio2.Migrations
 {
     [DbContext(typeof(Caso2DbContext))]
-    [Migration("20241210033332_AgregarCategorias")]
-    partial class AgregarCategorias
+    [Migration("20241214044812_asistenciaMigration")]
+    partial class asistenciaMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,32 @@ namespace CasoEstudio2.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("CasoEstudio2.Models.Asistencia", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("InscripcionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InscripcionId")
+                        .IsUnique();
+
+                    b.ToTable("Asistencias");
+                });
 
             modelBuilder.Entity("CasoEstudio2.Models.Categoria", b =>
                 {
@@ -104,6 +130,29 @@ namespace CasoEstudio2.Migrations
                     b.ToTable("Eventos");
                 });
 
+            modelBuilder.Entity("CasoEstudio2.Models.Inscripcion", b =>
+                {
+                    b.Property<int>("InscripcionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InscripcionId"));
+
+                    b.Property<int>("EventoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("InscripcionId");
+
+                    b.HasIndex("EventoId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Inscripciones");
+                });
+
             modelBuilder.Entity("CasoEstudio2.Models.Rol", b =>
                 {
                     b.Property<int>("Id")
@@ -147,9 +196,8 @@ namespace CasoEstudio2.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Rol")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("RolId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Telefono")
                         .IsRequired()
@@ -157,7 +205,65 @@ namespace CasoEstudio2.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RolId");
+
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("CasoEstudio2.Models.Asistencia", b =>
+                {
+                    b.HasOne("CasoEstudio2.Models.Inscripcion", "Inscripcion")
+                        .WithOne("Asistencia")
+                        .HasForeignKey("CasoEstudio2.Models.Asistencia", "InscripcionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Inscripcion");
+                });
+
+            modelBuilder.Entity("CasoEstudio2.Models.Inscripcion", b =>
+                {
+                    b.HasOne("CasoEstudio2.Models.Evento", "Evento")
+                        .WithMany("Inscripciones")
+                        .HasForeignKey("EventoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CasoEstudio2.Models.Usuario", "Usuario")
+                        .WithMany("Inscripciones")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Evento");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("CasoEstudio2.Models.Usuario", b =>
+                {
+                    b.HasOne("CasoEstudio2.Models.Rol", "Rol")
+                        .WithMany()
+                        .HasForeignKey("RolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Rol");
+                });
+
+            modelBuilder.Entity("CasoEstudio2.Models.Evento", b =>
+                {
+                    b.Navigation("Inscripciones");
+                });
+
+            modelBuilder.Entity("CasoEstudio2.Models.Inscripcion", b =>
+                {
+                    b.Navigation("Asistencia");
+                });
+
+            modelBuilder.Entity("CasoEstudio2.Models.Usuario", b =>
+                {
+                    b.Navigation("Inscripciones");
                 });
 #pragma warning restore 612, 618
         }

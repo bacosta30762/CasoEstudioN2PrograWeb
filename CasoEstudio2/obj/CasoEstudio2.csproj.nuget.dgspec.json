@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj": {}
+    "C:\\Users\\Daniel Lopez\\OneDrive - Universidad Fidélitas\\Escritorio\\SGAgrovictoria\\PrograWebAvanzada\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj": {
+    "C:\\Users\\Daniel Lopez\\OneDrive - Universidad Fidélitas\\Escritorio\\SGAgrovictoria\\PrograWebAvanzada\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Lopez\\OneDrive - Universidad Fidélitas\\Escritorio\\SGAgrovictoria\\PrograWebAvanzada\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
         "projectName": "CasoEstudio2",
-        "projectPath": "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
-        "packagesPath": "C:\\Users\\Paula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paula\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Lopez\\OneDrive - Universidad Fidélitas\\Escritorio\\SGAgrovictoria\\PrograWebAvanzada\\CasoEstudioN2PrograWeb\\CasoEstudio2\\CasoEstudio2.csproj",
+        "packagesPath": "C:\\Users\\Daniel Lopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Lopez\\OneDrive - Universidad Fidélitas\\Escritorio\\SGAgrovictoria\\PrograWebAvanzada\\CasoEstudioN2PrograWeb\\CasoEstudio2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +80,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -98,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

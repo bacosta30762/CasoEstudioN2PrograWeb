@@ -29,6 +29,8 @@
                     <a href="@Url.Action("Editar", new { id = evento.Id })">Editar</a> |
                     <a href="@Url.Action("Eliminar", new { id = evento.Id })">Eliminar</a>
                     <a href="@Url.Action("Inscribir", new { id = evento.Id })">Inscribirse</a>
+                    <a href="@Url.Action("TomarLista", "Asistencia", new { eventoId = evento.Id })">Tomar lista</a>
+
                 </td>
             </tr>
         }
