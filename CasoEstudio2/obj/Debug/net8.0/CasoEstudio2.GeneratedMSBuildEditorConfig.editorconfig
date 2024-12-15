@@ -17,99 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CasoEstudio2
 build_property.RootNamespace = CasoEstudio2
-build_property.ProjectDir = C:\Users\Daniel Lopez\OneDrive - Universidad Fidélitas\Escritorio\SGAgrovictoria\PrograWebAvanzada\CasoEstudioN2PrograWeb\CasoEstudio2\
+build_property.ProjectDir = C:\Users\Personal\Desktop\Fidelitas\Programación Avanzada en Web\CasoEstudio2\CasoEstudio2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Daniel Lopez\OneDrive - Universidad Fidélitas\Escritorio\SGAgrovictoria\PrograWebAvanzada\CasoEstudioN2PrograWeb\CasoEstudio2
+build_property.MSBuildProjectDirectory = C:\Users\Personal\Desktop\Fidelitas\Programación Avanzada en Web\CasoEstudio2\CasoEstudio2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Asistencia/TomarLista.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Asistencia/TomarLista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbmNpYVxUb21hckxpc3RhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Categoria/Crear.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Categoria/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Categoria/Editar.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Categoria/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Categoria/Eliminar.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Categoria/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Categoria/Index.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Eventos/Crear.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Eventos/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Eventos/Editar.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Eventos/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Eventos/Index.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Eventos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Home/Index.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Home/Privacy.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Home/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Shared/Error.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Usuario/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Usuarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Usuario/GestionarRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xHZXN0aW9uYXJSb2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Usuarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Usuarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/_ViewImports.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/_ViewStart.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Lopez/OneDrive - Universidad Fidélitas/Escritorio/SGAgrovictoria/PrograWebAvanzada/CasoEstudioN2PrograWeb/CasoEstudio2/Views/Shared/_Layout.cshtml]
+[C:/Users/Personal/Desktop/Fidelitas/Programación Avanzada en Web/CasoEstudio2/CasoEstudio2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7jgq1qtjz6

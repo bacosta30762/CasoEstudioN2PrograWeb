@@ -36,6 +36,12 @@ namespace CasoEstudio2.Models
                 .WithOne(a => a.Inscripcion)
                 .HasForeignKey<Asistencia>(a => a.InscripcionId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Rol>().HasData(
+                new Rol { Id = 1, Nombre = "Administrador" },
+                new Rol { Id = 2, Nombre = "Organizador" },
+                new Rol { Id = 3, Nombre = "Usuario" }
+            );
         }
     }
 }

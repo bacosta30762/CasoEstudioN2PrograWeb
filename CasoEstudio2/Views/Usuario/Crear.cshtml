@@ -1,10 +1,8 @@
-﻿@{
-    ViewData["Title"] = "Crear Usuario";
-}
+﻿@model CasoEstudio2.Models.Usuario
 
 <h2>Crear Usuario</h2>
 
-<form method="post">
+<form asp-action="Crear" method="post">
     <div class="form-group">
         <label for="nombreUsuario">Nombre de Usuario</label>
         <input type="text" class="form-control" id="nombreUsuario" name="nombreUsuario" required />
@@ -24,15 +22,6 @@
     <div class="form-group">
         <label for="contraseña">Contraseña</label>
         <input type="password" class="form-control" id="contraseña" name="contraseña" required />
-    </div>
-    <div class="form-group">
-        <label for="rolId">Rol</label>
-        <select class="form-control" id="rolId" name="rolId" required>
-            @foreach (var rol in ViewData["RolId"] as SelectList)
-            {
-                <option value="@rol.Value">@rol.Text</option>
-            }
-        </select>
     </div>
 
     <button type="submit" class="btn btn-primary">Crear</button>

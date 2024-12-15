@@ -1,0 +1,33 @@
+﻿<h2>Gestionar Roles</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Rol Actual</th>
+            <th>Nuevo Rol</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.NombreUsuario</td>
+                <td>@usuario.Correo</td>
+                <td>@usuario.Rol?.Nombre</td>
+                <td>
+                    <form asp-action="AsignarRol" method="post">
+                        <input type="hidden" name="usuarioId" value="@usuario.Id" />
+                        <select name="rolId">
+                            @foreach (var rol in ViewBag.Roles)
+                            {
+                                <option value="@rol.Id">@rol.Nombre</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-sm btn-primary">Asignar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

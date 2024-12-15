@@ -28,7 +28,7 @@ namespace CasoEstudio2.Models
         // Relación con Rol
         [Required]
         public int RolId { get; set; }
-        public Rol Rol { get; set; }
+        public Rol? Rol { get; set; }
 
         public List<Inscripcion>? Inscripciones { get; set; } = new List<Inscripcion>();
 
