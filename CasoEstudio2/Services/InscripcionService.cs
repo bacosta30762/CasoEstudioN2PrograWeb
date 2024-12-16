@@ -11,6 +11,7 @@ namespace CasoEstudio2.Services
         {
             _context = context;
         }
+
         public async Task<List<Inscripcion>> ObtenerInscripcionesAsync()
         {
             return await _context.Inscripciones.ToListAsync();
@@ -18,7 +19,7 @@ namespace CasoEstudio2.Services
 
         public async Task<Resultado> AgregarInscripcionAsync(int idevento)
         {
-            var usuarioAutenticado = new Usuario { Id = 1 };
+            var usuarioAutenticado = new Usuario { Id = 1 }; // Suponiendo un usuario autenticado con id = 1
             var evento = await _context.Eventos.FindAsync(idevento);
             if (evento == null)
             {
@@ -54,9 +55,18 @@ namespace CasoEstudio2.Services
 
             return new Resultado { Exitoso = true };
         }
+
+        public async Task<List<Inscripcion>> ObtenerInscripcionesPorEventoAsync(int id)
+        {
+            // Retorna todas las inscripciones para el evento con el Id dado
+            return await _context.Inscripciones
+                .Where(i => i.EventoId == id)
+                .ToListAsync();
+        }
+
         private async Task<bool> VerificarDisponibilidadEventoAsync(Evento evento)
         {
-            var usuarioAutenticado = new Usuario { Id = 1 };
+            var usuarioAutenticado = new Usuario { Id = 1 }; // Suponiendo un usuario autenticado con id = 1
             var eventosUsuario = await _context.Inscripciones
                 .Include(i => i.Evento)
                 .Where(i => i.UsuarioId == usuarioAutenticado.Id)

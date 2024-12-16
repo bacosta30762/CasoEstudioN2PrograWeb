@@ -16,8 +16,39 @@ builder.Services.AddScoped<IInscripcionService, InscripcionService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<RoleSeeder>();
 builder.Services.AddSession();
+builder.Services.AddScoped<IDashboardService, DashboardService>();
+
 
 var app = builder.Build();
+
+// Endpoint: GET /api/events (Lista de eventos)
+app.MapGet("/api/events", async (IEventoService eventoService) =>
+{
+    var eventos = await eventoService.ObtenerEventosAsync();
+    return Results.Ok(eventos.Select(e => new
+    {
+        e.Id,
+        e.Titulo,
+        e.Descripcion,
+        e.Fecha,
+        e.Hora,
+        e.Duracion,
+        e.Ubicacion,
+        e.CupoMaximo,
+        e.CategoriaId
+    }));
+});
+
+// Endpoint: GET /api/events/{id} (Detalles de un evento específico)
+app.MapGet("/api/events/{id:int}", async (int id, IEventoService eventoService) =>
+{
+    var evento = await eventoService.ObtenerEventoPorIdAsync(id);
+    if (evento == null)
+    {
+        return Results.NotFound(new { message = "Evento no encontrado" });
+    }
+    return Results.Ok(evento);
+});
 
 using (var serviceScope = app.Services.CreateScope())
 {

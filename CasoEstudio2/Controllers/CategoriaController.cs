@@ -29,6 +29,10 @@ namespace CasoEstudio2.Controllers
             {
                 try
                 {
+                    // Agregar fecha y usuario automáticamente
+                    categoria.FechaRegistro = DateTime.Now;
+                    categoria.UsuarioRegistro = User.Identity.Name ?? "Sistema"; // Asume que hay un sistema de autenticación
+
                     await _categoriaService.AgregarCategoriaAsync(categoria);
                     return RedirectToAction("Index");
                 }
@@ -38,7 +42,6 @@ namespace CasoEstudio2.Controllers
                 }
             }
             return View(categoria);
-
         }
         public async Task<IActionResult> EditarAsync(int id)
         {
