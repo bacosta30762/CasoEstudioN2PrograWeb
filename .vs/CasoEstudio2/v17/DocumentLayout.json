@@ -3,68 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\iinscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\iinscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\inscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\inscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\eventos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\eventos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|c:\\users\\sheyris\\source\\repos\\casoestudion2prograweb\\casoestudio2\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC2AA0A1-4A6E-4683-BBD7-3917A68814AB}|CasoEstudio2\\CasoEstudio2.csproj|solutionrelative:casoestudio2\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -135,209 +83,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CasoEstudio2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T06:18:09.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "CasoEstudio2\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "CasoEstudio2\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-16T06:17:55.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "CasoEstudio2\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T06:17:06.679Z",
+              "WhenOpened": "2024-12-16T20:19:47.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IDashboardService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\IDashboardService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IDashboardService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\IDashboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:11:46.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\DashboardService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\DashboardService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\Source\\Repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\DashboardService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\DashboardService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:02:07.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Models\\Usuario.cs",
-              "RelativeToolTip": "CasoEstudio2\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:00:03.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwDIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:54:37.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IUsuarioService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:53:40.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IInscripcionService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IInscripcionService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\IInscripcionService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IInscripcionService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\IInscripcionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:46:08.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InscripcionService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\InscripcionService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\InscripcionService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\InscripcionService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\InscripcionService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:38:51.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "CasoEstudio2\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:38:28.083Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Eventos\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Eventos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Eventos\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Eventos\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T20:18:56.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Program.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Program.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Program.cs",
-              "RelativeToolTip": "CasoEstudio2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:37:43.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventoService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\EventoService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\EventoService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\EventoService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\EventoService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:29:18.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEventoService.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IEventoService.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Services\\IEventoService.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Services\\IEventoService.cs",
-              "RelativeToolTip": "CasoEstudio2\\Services\\IEventoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:29:13.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Eventos\\Crear.cshtml",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Eventos\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Eventos\\Crear.cshtml",
-              "RelativeToolTip": "CasoEstudio2\\Views\\Eventos\\Crear.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "CasoEstudio2\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T05:21:40.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "CasoEstudio2\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\Sheyris\\source\\repos\\CasoEstudioN2PrograWeb\\CasoEstudio2\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "CasoEstudio2\\Controllers\\EventosController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T05:14:08.269Z",
+              "WhenOpened": "2024-12-16T20:18:46.909Z",
               "EditorCaption": ""
             }
           ]
@@ -365,6 +144,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         },

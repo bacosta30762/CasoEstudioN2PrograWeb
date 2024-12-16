@@ -3,39 +3,43 @@
     ViewBag.Title = "Tomar Lista";
 }
 
-<h2 class="text-center mb-4">Tomar Lista para el Evento: <strong>@ViewBag.EventoTitulo</strong></h2>
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">Tomar Lista para el Evento: <span class="text-primary">@ViewBag.EventoTitulo</span></h2>
 
-<form asp-action="TomarLista" method="post" class="container">
-    <input type="hidden" name="eventoId" value="@ViewBag.EventoId" />
+    <form asp-action="TomarLista" method="post" class="shadow-sm p-4 bg-white rounded">
+        <input type="hidden" name="eventoId" value="@ViewBag.EventoId" />
 
-    <table class="table table-bordered table-striped">
-        <thead class="table-dark">
-            <tr>
-                <th>Nombre</th>
-                <th>Estado</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var inscripcion in Model)
-            {
+        <table class="table table-hover table-bordered">
+            <thead class="table-dark text-center">
                 <tr>
-                    <td>@inscripcion.Usuario.NombreCompleto</td>
-                    <td>
-                        <select class="form-select" name="inscripciones[@Model.IndexOf(inscripcion)].Asistencia.Estado">
-                            <option value="Presente">Presente</option>
-                            <option value="Ausente">Ausente</option>
-                        </select>
-                        <input type="hidden" name="inscripciones[@Model.IndexOf(inscripcion)].InscripcionId" value="@inscripcion.InscripcionId" />
-                    </td>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Estado</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var inscripcion in Model)
+                {
+                    <tr>
+                        <td class="align-middle">@inscripcion.Usuario.NombreCompleto</td>
+                        <td>
+                            <select class="form-select" name="inscripciones[@Model.IndexOf(inscripcion)].Asistencia.Estado" aria-label="Seleccionar estado">
+                                <option value="Presente">Presente</option>
+                                <option value="Ausente">Ausente</option>
+                            </select>
+                            <input type="hidden" name="inscripciones[@Model.IndexOf(inscripcion)].InscripcionId" value="@inscripcion.InscripcionId" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
-    <div class="d-flex justify-content-center mt-4">
-        <button type="submit" class="btn btn-primary">Guardar</button>
-    </div>
-    <div class="text-center mt-3">
-        <a href="@Url.Action("Index", "Eventos")" class="btn btn-secondary">Volver a Eventos</a>
-    </div>
-</form>
+        <div class="d-flex justify-content-center mt-4">
+            <button type="submit" class="btn btn-primary me-3">
+                <i class="bi bi-save"></i> Guardar
+            </button>
+            <a href="@Url.Action("Index", "Eventos")" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Volver a Eventos
+            </a>
+        </div>
+    </form>
+</div>

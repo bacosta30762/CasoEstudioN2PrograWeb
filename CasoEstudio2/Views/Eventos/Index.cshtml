@@ -1,46 +1,56 @@
 ﻿@model IEnumerable<Evento>
 
-@if (TempData["Mensaje"] != null)
-{
-    <div class="alert alert-primary" role="alert">
-        @TempData["Mensaje"]
+<div class="container my-4">
+    @if (TempData["Mensaje"] != null)
+    {
+        <div class="alert alert-primary" role="alert">
+            @TempData["Mensaje"]
+        </div>
+    }
+
+    <h2 class="text-center mb-4">Listado de Eventos</h2>
+
+    <div class="mb-4 text-end">
+        <a asp-action="Crear" class="btn btn-success">Crear Nuevo Evento</a>
     </div>
-}
 
-<table>
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Fecha</th>
-            <th>Hora</th>
-            <th>Cupo Máximo</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var evento in Model)
-        {
-            <tr>
-                <td>@evento.Titulo</td>
-                <td>@evento.Fecha.ToString("yyyy-MM-dd")</td>
-                <td>@evento.Hora</td>
-                <td>@evento.CupoMaximo</td>
-                <td>
-                    <a href="@Url.Action("Editar", new { id = evento.Id })">Editar</a> |
-                    <a href="@Url.Action("Eliminar", new { id = evento.Id })">Eliminar</a>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Título</th>
+                    <th>Fecha</th>
+                    <th>Hora</th>
+                    <th>Cupo Máximo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var evento in Model)
+                {
+                    <tr>
+                        <td>@evento.Titulo</td>
+                        <td>@evento.Fecha.ToString("yyyy-MM-dd")</td>
+                        <td>@evento.Hora</td>
+                        <td>@evento.CupoMaximo</td>
+                        <td>
+                            <a href="@Url.Action("Editar", new { id = evento.Id })" class="btn btn-warning btn-sm">Editar</a>
+                            <a href="@Url.Action("Eliminar", new { id = evento.Id })" class="btn btn-danger btn-sm">Eliminar</a>
 
-                    @if (evento.CupoMaximo > 0)
-                    {
-                        <a href="@Url.Action("Inscribir", new { id = evento.Id })">Inscribirse</a>
-                    }
-                    else
-                    {
-                        <span>Inscripción cerrada</span>
-                    }
+                            @if (evento.CupoMaximo > 0)
+                            {
+                                <a href="@Url.Action("Inscribir", new { id = evento.Id })" class="btn btn-info btn-sm">Inscribirse</a>
+                            }
+                            else
+                            {
+                                <span class="text-muted">Inscripción cerrada</span>
+                            }
 
-                    <a href="@Url.Action("TomarLista", "Asistencia", new { eventoId = evento.Id })">Tomar lista</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                            <a href="@Url.Action("TomarLista", "Asistencia", new { eventoId = evento.Id })" class="btn btn-primary btn-sm">Tomar Lista</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

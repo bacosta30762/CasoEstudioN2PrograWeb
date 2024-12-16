@@ -1,18 +1,20 @@
 ﻿@model CasoEstudio2.Models.Categoria
 
-<h1>Eliminar Categoría</h1>
+<div class="container my-5">
+    <h1 class="text-center text-danger mb-4">Eliminar Categoría</h1>
 
-<p>¿Estás seguro de que deseas eliminar la categoría <strong>@Model.Nombre</strong>?</p>
+    <p class="text-center">¿Estás seguro de que deseas eliminar la categoría <strong>@Model.Nombre</strong>?</p>
 
-<dl>
-    <dt>Nombre:</dt>
-    <dd>@Model.Nombre</dd>
-    <dt>Estado:</dt>
-    <dd>@Model.Estado</dd>
-</dl>
+    <dl class="row justify-content-center">
+        <dt class="col-sm-3 text-end">Nombre:</dt>
+        <dd class="col-sm-6">@Model.Nombre</dd>
+        <dt class="col-sm-3 text-end">Estado:</dt>
+        <dd class="col-sm-6">@Model.Estado</dd>
+    </dl>
 
-<form asp-action="Eliminar" method="post">
-    <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Eliminar</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
-</form>
+    <form asp-action="Eliminar" method="post" class="text-center">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger me-3"><i class="bi bi-trash"></i> Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-x-circle"></i> Cancelar</a>
+    </form>
+</div>
