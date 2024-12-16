@@ -8,6 +8,5 @@
         public string Estado { get; set; } = string.Empty;
         public DateTime FechaRegistro { get; set; }
         public string UsuarioRegistro { get; set; } = string.Empty;
-
     }
 }

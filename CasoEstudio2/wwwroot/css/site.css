@@ -20,3 +20,38 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.dashboard-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .stat-item h4 {
+        margin: 0;
+        color: #333;
+    }
+
+    .stat-item p {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }

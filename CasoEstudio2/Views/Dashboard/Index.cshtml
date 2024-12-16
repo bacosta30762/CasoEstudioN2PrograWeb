@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="dashboard-stats">
+    <div class="stat-item">
+        <h4>Total de Eventos</h4>
+        <p>@Model.TotalEventos</p>
+    </div>
+    <div class="stat-item">
+        <h4>Total de Usuarios Activos</h4>
+        <p>@Model.TotalUsuariosActivos</p>
+    </div>
+    <div class="stat-item">
+        <h4>Asistentes Registrados Este Mes</h4>
+        <p>@Model.AsistentesPorMes</p>
+    </div>
+</div>
+
+<h3>Top 5 de Eventos Populares</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título del Evento</th>
+            <th>Descripción</th>
+            <th>Cantidad de Asistentes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var evento in Model.TopEventosPopulares)
+        {
+            <tr>
+                <td>@evento.Titulo</td>
+                <td>@evento.Descripcion</td>
+                <td>
+                    @* Aquí calculamos la cantidad de asistentes *@
+                    @* Si se desea, se puede mostrar la cantidad de inscripciones directamente desde el controlador o calcularla aquí *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -43,22 +43,24 @@ namespace CasoEstudio2.Controllers
         [HttpPost]
         public async Task<IActionResult> TomarLista(int eventoId, List<Inscripcion> inscripciones)
         {
-            if (inscripciones == null || inscripciones.Count == 0)
+            if (inscripciones == null || !inscripciones.Any())
             {
                 return BadRequest("No se enviaron datos para actualizar.");
             }
 
+            var inscripcionIds = inscripciones.Select(i => i.InscripcionId).ToList();
+            var dbInscripciones = await _context.Inscripciones
+                .Include(i => i.Asistencia)
+                .Where(i => inscripcionIds.Contains(i.InscripcionId))
+                .ToListAsync();
+
             foreach (var inscripcion in inscripciones)
             {
-                var dbInscripcion = await _context.Inscripciones
-                    .Include(i => i.Asistencia)
-                    .FirstOrDefaultAsync(i => i.InscripcionId == inscripcion.InscripcionId);
-
+                var dbInscripcion = dbInscripciones.FirstOrDefault(i => i.InscripcionId == inscripcion.InscripcionId);
                 if (dbInscripcion != null)
                 {
                     if (dbInscripcion.Asistencia == null)
                     {
-                        // Crear nueva asistencia si no existe
                         dbInscripcion.Asistencia = new Asistencia
                         {
                             InscripcionId = dbInscripcion.InscripcionId,
@@ -69,20 +71,17 @@ namespace CasoEstudio2.Controllers
                     }
                     else
                     {
-                        // Actualizar asistencia existente
                         dbInscripcion.Asistencia.Estado = inscripcion.Asistencia.Estado;
                         dbInscripcion.Asistencia.FechaRegistro = DateTime.Now;
                     }
                 }
             }
 
-            // Guardar cambios
             await _context.SaveChangesAsync();
-
-            // Redirigir al detalle del evento
             TempData["Success"] = "Asistencia registrada correctamente.";
             return RedirectToAction("Index", "Eventos");
         }
+
 
     }
 }

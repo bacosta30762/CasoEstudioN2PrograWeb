@@ -6,5 +6,6 @@ namespace CasoEstudio2.Services
     {
         Task<Resultado> AgregarInscripcionAsync(int idevento);
         Task<List<Inscripcion>> ObtenerInscripcionesAsync();
+        Task<List<Inscripcion>> ObtenerInscripcionesPorEventoAsync(int id);
     }
 }
